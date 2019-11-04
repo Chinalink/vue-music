@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: HuGang
  * @Date: 2019-11-04 13:28:07
- * @LastEditTime: 2019-11-04 14:51:14
+ * @LastEditTime: 2019-11-04 15:44:38
  */
 'use strict'
 const path = require('path')
@@ -43,7 +43,8 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       'api': resolve('src/api'),
-      'assets': resolve('src/assets')
+      'assets': resolve('src/assets'),
+      'components': resolve('src/components')
     }
   },
   module: {
